@@ -14,7 +14,7 @@
  
  🌱 I’m currently learning **sql, Python, AWS**
 
-💬 Ask me about **python, bash, or sql... or anything [here](https://github.com/jjtlemall/Ashley_Cyber_Oct2024.git)**
+💬 Ask me about **python, bash, or sql... or anything [here](https://github.com/jjtlemall/)**
 
 ⚡ Fun fact **I am Proficient in American Sign Language!**
 
