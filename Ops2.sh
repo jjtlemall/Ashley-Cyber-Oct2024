@@ -9,4 +9,4 @@ dog="Jax"
 car="Volkswagon"
 
 
-echo "Welcome to the class, $name. Whats your dogs name? $dog. What kind of car do you drive? $car"
+echo "Welcome to the class, $name. Whats your dogs name? $dog. What kind of car do you drive? $carwho"
