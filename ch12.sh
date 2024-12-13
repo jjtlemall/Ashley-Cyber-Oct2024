@@ -4,15 +4,18 @@
 # Case statment format is a little different so please look up how this would be formated
 # https://linuxize.com/post/bash-case-statement/
 
-echo "How is your day going? (good/bad)"
-read day_status
+# echo "How is your day going? (good/bad)"
+read -p "How was your day?" ANSWER
 
-case $day_status in
-  good)
-    echo "thats great to hear, keep it up!"
+while [ true ]; do
+  case $ANSWER in
+  good | Good -
+    echo -n "thats great to hear, keep it up!"
+    break
     ;;
-  bad)
-    echo "sorry to heat that, tomorrow is a new day."
+
+  bad | Bad
+    echo -n "sorry to heat that, tomorrow is a new day."
     ;;
   *)
     echo "I didnt understand that, please respond with 'good' or 'bad'"
